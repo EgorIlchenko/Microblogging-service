@@ -1,1 +1,18 @@
+# Environments
+/My_X/.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# pytype static type analyzer
+.pytype/
 /.idea/
+
+#PostgreSQL
+pg_data/
+.dbeaver-data-sources.xml
+/My_X/db/
+/My_X/app/alembic/env.py
