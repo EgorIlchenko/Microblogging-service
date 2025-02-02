@@ -152,6 +152,11 @@ file: image.jpg
 - `file_path` (str) — путь к файлу.
 - `user_id` (int, foreign key) — ID пользователя, загрузившего файл.
 
+### **TweetMedia**
+- `id` (int, primary key) — уникальный идентификатор записи.
+- `tweet_id` (int, foreign key) — идентификатор твита.
+- `media_id` (int, foreign key) — идентификатор медиафайла.
+
 ### **Like**
 - `id` (int, primary key) — уникальный идентификатор лайка.
 - `tweet_id` (int, foreign key) — ID твита.
